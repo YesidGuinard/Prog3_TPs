@@ -1,0 +1,14 @@
+{
+    "name": "yesid/Tp2",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Yesid Dario Guinard",
+            "email": "ydguinards@gmail.com"
+        }
+    ]
+}

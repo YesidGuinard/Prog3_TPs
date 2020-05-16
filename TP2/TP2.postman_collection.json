@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "99cfe01e-c367-42fa-9848-ce13452e8378",
+		"name": "TP2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Punto 3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRhcmlvQHV0bi5jb20iLCJub21icmUiOiJEYXJpbyIsImFwZWxsaWRvIjoiU2lsdmEiLCJ0aXBvIjoiYWRtaW4ifQ.kPZ31kWzc_AgHv25uBdGIX7iA7U3Q20pNP4MlvO-P78"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:8080/TP2/index.php/detalle",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"TP2",
+						"index.php",
+						"detalle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imp1YW5AdXRuLmNvbSIsIm5vbWJyZSI6Ikp1YW4iLCJhcGVsbGlkbyI6IlBlcmV6IiwidGlwbyI6InVzZXIifQ.hwIY2KfkyIaPl6vJ-XBEH5oKEwvbdOWkm9jyTkm1WBQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:8080/TP2/index.php/lista",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"TP2",
+						"index.php",
+						"lista"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "macarena@utn.com",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "12345",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "Macarena",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Escuer",
+							"type": "text"
+						},
+						{
+							"key": "telefono",
+							"value": "11112222",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "user",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/TP2/index.php/signin",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"TP2",
+						"index.php",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "juan@utn.com",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/TP2/index.php/login",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"TP2",
+						"index.php",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "13abd841-520d-42cc-8678-196ae2f867f8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "021ac7c1-1a33-440f-b7c1-ec7f1744a4e3",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
